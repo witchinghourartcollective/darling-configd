@@ -74,6 +74,12 @@ Boolean SCNetworkReachabilitySetCallback(SCNetworkReachabilityRef target, SCNetw
 	return 0;
 }
 
+Boolean SCNetworkReachabilitySetDispatchQueue(SCNetworkReachabilityRef target, dispatch_queue_t queue)
+{
+    STUB();
+    return 0;
+}
+
 Boolean SCNetworkReachabilityGetFlags(SCNetworkReachabilityRef target, SCNetworkReachabilityFlags* flags)
 {
     STUB();
